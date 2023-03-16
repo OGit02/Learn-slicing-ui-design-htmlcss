@@ -10,12 +10,21 @@
 .layout {
   display: flex;
   width: 100%;
+  min-height: 100vh;
 }
 
 .layout-left {
-  width: 80%;
-  padding: 100px;
+  width: 60%;
+  padding: 80px 140px;
 }
+
+.layout-right {
+  width: 40%;
+  background-image: url(./image/Rectangle\ 1.png);
+  background-size: cover;
+  flex-shrink: 0;
+}
+
 .brand {
   margin-bottom: 150px;
   font-size: 20px;
@@ -42,6 +51,7 @@
   font-size: 44px;
   font-weight: 700;
   color: #0a1b59;
+  line-height: 60px;
 }
 
 .lead {
@@ -53,6 +63,7 @@
 
 .invite-form {
   display: flex;
+  margin-top: 40px;
 }
 
 .invite-form input {
@@ -71,4 +82,15 @@
   color: #fff;
   border-radius: 8px;
   border: none;
+}
+
+.form-text {
+  width: 541px;
+  height: 48px;
+  top: 72px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(10, 27, 89, 0.6);
 }
